@@ -1,3 +1,12 @@
-import React from "react"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-export default () => <div>Hello world!</div>
+const HomePage = () => (
+  <Layout>
+    <SEO />
+    <h1>Hello LIJS!</h1>
+  </Layout>
+);
+
+export default HomePage;

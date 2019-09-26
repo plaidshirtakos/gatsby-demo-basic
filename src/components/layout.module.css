@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background: lightskyblue;
+  padding: 10px 20px;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
